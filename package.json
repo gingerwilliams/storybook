@@ -2,6 +2,7 @@
     "name": "storybook",
     "version": "1.0.0",
     "description": "Sapphire Storybook",
+    "homepage": "https://www.designsystems.newellbrands.com",
     "main": "index.js",
     "scripts": {
         "jest": "jest ./src",

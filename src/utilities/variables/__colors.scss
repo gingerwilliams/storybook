@@ -1,0 +1,37 @@
+$colors: (
+    "newell-blue": #298fc2,
+    "newell-gray": #696158,
+    "brand-blue": #3a5dae,
+    "brand-green": #1b806d,
+    "brand-lime": #a8ad00,
+    "brand-ochre": #b58500,
+    "brand-orange": #e3721f,
+    "brand-red": #c04c36,
+    "brand-magenta": #890c58,
+    "brand-purple": #653279,
+    "white": #ffffff,
+    "silver": #bfbfbf,
+    "gray": #7f7f7f,
+    "masala": #404040,
+    "black": #000000,
+    "catskill-white": #eef7fb,
+    "botticelli": #cde7f4,
+    "seagull": #78bfe2,
+    "orient": #1d6387,
+    "tarawera": #123e54,
+    "whitesmoke": #f6f5f4,
+    "mercury": #e3e1de,
+    "silk": #b5aea6,
+    "armadillo": #433e38,
+    "blackcoffee": #211f1c,
+    "success": #1b806d,
+    "warning": #b58500,
+    "destructive": #c04c36
+);
+
+@function color($color) {
+    @return map-get($colors, $color);
+}
+
+// example use:
+// background-color: color(brand-purple);

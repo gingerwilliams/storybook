@@ -1,0 +1,20 @@
+.toast {
+    &_box {
+        padding: 16px 24px;
+        position: relative;
+        border-radius: 2px;
+    }
+    &_link {
+        text-decoration: underline;
+        color: #ffffff;
+    }
+    &_success {
+        background-color: color(brand-green);
+    }
+    &_warning {
+        background-color: color(brand-ochre);
+    }
+    &_danger {
+        background-color: color(brand-red);
+    }
+}

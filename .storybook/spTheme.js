@@ -1,4 +1,5 @@
 import { create } from "@storybook/theming";
+import { name, homepage, version } from "../package.json";
 
 export default create({
     base: "light",
@@ -31,7 +32,7 @@ export default create({
     inputTextColor: "black",
     inputBorderRadius: 4,
 
-    brandTitle: "My custom storybook",
-    brandUrl: "https://example.com",
+    brandTitle: `${name}@${version}`,
+    brandUrl: homepage,
     brandImage: "https://placehold.it/350x150"
 });

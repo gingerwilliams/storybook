@@ -1,0 +1,11 @@
+@each $color-key, $color-value in $colors {
+    .color_font_#{$color-key} {
+        color: $color-value;
+    }
+    .color_bg_#{$color-key} {
+        background-color: $color-value;
+    }
+}
+
+// Loops over array of colors in variables/_colors
+// Returns color_font_newell-blue and color_bg_newell-blue
