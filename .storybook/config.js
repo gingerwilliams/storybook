@@ -1,6 +1,10 @@
-import { configure, addParameters } from "@storybook/react";
+import { configure, addParameters, addDecorator } from "@storybook/react";
+import { name, homepage, version } from "../package.json";
 // import { themes } from "@storybook/theming";
 import SapphireTheme from "./spTheme";
+
+// this enables HMR for the SCSS source files
+import "../src/index.scss";
 
 // Option defaults.
 addParameters({

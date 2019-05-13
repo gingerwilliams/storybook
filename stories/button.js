@@ -2,7 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { withInfo } from "@storybook/addon-info";
 // import { Button } from '@storybook/react/demo';
-import Button from "../src/components/Button";
+import Button from "../views/components/Button";
 
 storiesOf("Button", module)
     .addDecorator(withInfo)
